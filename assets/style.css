@@ -111,46 +111,36 @@ img.coins {
     height: 100%;
 }
 
-.cards1 {
+#cards1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #212121;
-    align-items: center;
-    justify-content: center;
     margin-top: 3%;
 }
 
-.cards2 {
+#cards2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #212121;
-    align-items: center;
-    justify-content: center;
 }
 
-.cards3 {
+#cards3 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     background-color: #212121;
     align-items: center;
-    display: table;
-    justify-content: center;
 }
 
 img.card {
     width: auto;
     max-width: 100%;
     height: auto;
-    max-height: 600px;
+    max-height: 700px;
     background-color: #212121;
-    align-items: center;
-    justify-content: center;
 }
 
 .singleCard {
@@ -162,13 +152,57 @@ img.card {
     justify-content: center;
 }
 
-.infoCard {
-    float: left;
-    width: 50%;
+
+/* DESIGN */
+#design {
+    background-color: #efefef;
+}
+
+.coverDesign {
+    flex: 50%;
+    max-height: 450px;
     padding: 3%;
-    margin-top: 3%;
+    background-color: #efefef;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#cards3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #efefef;
+    align-items: center;
+}
+
+#cards3 {
+    display: flex;
+    justify-content: space-around;
     background-color: #212121;
     align-items: center;
+}
+
+/* DIY */
+#DIY {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
+    background-image: url("./images/flowBackground.jpg");
+    background-size: cover;
+    padding: 3%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* footer */
+.white {
+    padding-top: 15px;
+    color: #b4b4b4;
 }
